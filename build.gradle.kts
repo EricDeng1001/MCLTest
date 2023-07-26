@@ -14,6 +14,9 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation("com.microsoft.playwright:playwright:1.36.0")
+}
 mirai {
     jvmTarget = JavaVersion.VERSION_1_8
 }
